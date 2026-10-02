@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refletindo sobre IA na Escola</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="caixa-principal">
+        <h1>Você decide o futuro da IA na escola</h1>
+        
+        <!-- Tela Inicial -->
+        <div class="caixa-inicial">
+            <p class="texto-inicial">
+                A Inteligência Artificial está transformando a educação. Insira seu nome para iniciar sua jornada de decisões:
+            </p>
+            <input type="text" id="campo-nome" placeholder="Digite seu nome..." />
+            <button class="btn-iniciar">Iniciar Missão</button>
+        </div>
+
+        <!-- Tela do Jogo -->
+        <div class="caixa-perguntas esconder"></div>
+        <div class="caixa-alternativas esconder"></div>
+        <div class="caixa-resultado esconder">
+            <p class="texto-resultado"></p>
+            <button class="btn-novamente esconder">Jogar Novamente</button>
+        </div>
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
